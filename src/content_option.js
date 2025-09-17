@@ -1,145 +1,158 @@
-const logotext = "JOHN";
+import linkedinProfilePicture from "./assets/images/linkedin profile picture.jpeg";
+
+const logotext = "SUR";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Suraj Sharma",
+    description:
+        "Lead Software Engineer and Project Manager delivering scalable digital experiences across cloud, mobile, and enterprise platforms.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Suraj Sharma",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Lead Software Engineer & Project Manager",
+        second: "Building resilient cloud-native platforms",
+        third: "Championing people, process, and product",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description:
+        "Motivated and adaptable professional with 5+ years delivering high-impact software, guiding teams end-to-end, and thriving in fast-moving environments across Canada, the UK, and Denmark.",
+    your_img_url: linkedinProfilePicture,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme:
+        "I blend engineering leadership, hands-on development, and client partnership to ship secure, scalable software. With experience spanning product delivery, guest services, and business analysis, I adapt quickly, communicate clearly, and keep teams focused on outcomes. Certified in Professional Scrum Master I, Azure Fundamentals, AWS Partner Accreditation (Technical) & Cloud Economics, and Scrum for Operations & DevOps, I back execution with disciplined delivery practices. University of Kent Computer Science graduate with a triple-distinction Software Development diploma from Derby College.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Lead Software Engineer & Project Manager (Owner)",
+        where: "Suessy · Calgary, Canada",
+        date: "Jul 2025 – Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Front Desk & Bell Desk Guest Services Support",
+        where: "Fairmont Chateau Lake Louise · Alberta, Canada",
+        date: "May 2025 – Jul 2025",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Software Developer Consultant / Senior Consultant",
+        where: "Netcompany · Copenhagen & London",
+        date: "Apr 2022 – May 2025",
+    },
+    {
+        jobtitle: ".NET Engineer & Support Specialist",
+        where: "Tata Consultancy Services · London, United Kingdom",
+        date: "Sep 2021 – Mar 2022",
+    },
+    {
+        jobtitle: "Full Stack Web Developer",
+        where: "Alphageek · Derby, United Kingdom",
+        date: "Jun 2021 – Sep 2021",
+    },
+    {
+        jobtitle: "Technical Business Analyst",
+        where: "Elanco · Basingstoke, United Kingdom",
+        date: "Jul 2019 – Jul 2020",
+    },
+    {
+        jobtitle: "Sales Assistant",
+        where: "Boots | Walgreens Company · Derby, United Kingdom",
+        date: "Sep 2014 – Sep 2017",
     },
 ];
 
-const skills = [{
-        name: "Python",
+const skills = [
+    {
+        name: "React Native & Mobile Delivery",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Java Spring Boot & Microservices",
+        value: 92,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Cloud Architecture (AWS & Azure)",
+        value: 88,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Agile Product Leadership",
+        value: 95,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Data & Event-Driven Systems",
+        value: 87,
+    },
+    {
+        name: "Client & Stakeholder Engagement",
+        value: 93,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Product & Delivery Leadership",
+        description:
+            "End-to-end roadmap, sprint, and release ownership that keeps teams aligned on value, scope, and delivery.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Cloud-Native Platform Engineering",
+        description:
+            "Designing resilient microservices with Java Spring Boot, Docker, PostgreSQL, and event-driven orchestration.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile & Web Application Development",
+        description:
+            "Building user-focused experiences with React Native, modern web stacks, and integrated backend services.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+const dataportfolio = [
+    {
+        img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        description:
+            "Suessy iOS platform: spearheaded React Native app development backed by Spring Boot microservices and cloud-native infrastructure.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+        description:
+            "HMRC Digital Customer Services: led Netcompany delivery streams, aligning stakeholders and delivering scalable services for millions of UK taxpayers.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
+        description:
+            "Cloud cost optimisation: reduced AWS spend by 25% via performance tuning and right-sized infrastructure across production workloads.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://images.unsplash.com/photo-1603573355547-23c94af74cf0",
+        description:
+            "Operational enablement: created technical documentation and onboarding playbooks that accelerated team ramp-up and knowledge transfer.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://images.unsplash.com/photo-1523875194681-bedd468c58bf",
+        description:
+            "Guest experience operations: supported luxury resort front-of-house teams with concierge, valet, and multi-department coordination.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+        description:
+            "Retail & customer engagement: delivered high-touch service, merchandising, and sales support across Boots / Walgreens locations.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
+    YOUR_EMAIL: "suraj.sharma1998@yahoo.com",
+    YOUR_FONE: "+1 (587) 576-4213",
+    description:
+        "Based in Calgary, AB (T2J6M7). Let’s connect on building resilient products, optimising operations, or exploring new opportunities across tech and business.",
+    // creat an emailjs.com account
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
@@ -147,10 +160,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    facebook: "#",
+    github: "#",
+    linkedin: "#",
+    twitter: "#",
 };
 export {
     meta,
