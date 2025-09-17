@@ -78,3 +78,45 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+.portfolio-modal-hero {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    min-height: 180px;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-modal-content {
+    color: var(--text-color);
+}
+
+.portfolio-modal-section {
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-modal-section h5 {
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio-modal-stack {
+    padding-left: 1.2rem;
+}
+
+.portfolio-modal-stack li {
+    margin-bottom: 0.35rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}

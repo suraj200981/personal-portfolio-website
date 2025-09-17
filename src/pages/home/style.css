@@ -44,9 +44,38 @@ section {
     }
 }
 
+@media (min-width: 992px) {
+  .intro_sec {
+    display: flex;
+    align-items: center;
+  }
+  .intro_sec .text {
+    width: 55%;
+    padding-left: 5vw;
+  }
+  .intro_sec .text .intro {
+    margin: 0;
+    max-width: 520px;
+  }
+  .intro_sec .h_bg-image {
+    width: 45%;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .intro_sec .h_bg-image {
+    min-height: 340px;
+    background-position: top center;
+  }
+}
+
 .intro_sec .text,
 .intro_sec .h_bg-image {
-    width: 50%;
+    width: 100%;
 }
 
 @media (max-width:991.98px) {
